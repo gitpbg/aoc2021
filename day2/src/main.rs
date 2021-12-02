@@ -6,9 +6,8 @@ fn part1() {
     let mut hpos = 0;
     let mut depth = 0;
     for line in data.lines() {
-        let mut tmp = line.split(" ");
-        let action = tmp.next().unwrap();
-        let amount = tmp.next().unwrap().parse::<i32>().unwrap();
+        let (action, amount) = line.split_once(" ").unwrap();
+        let amount = amount.parse::<i32>().unwrap();
         match action {
             "forward" => hpos += amount,
             "up" => depth -= amount,
@@ -30,9 +29,8 @@ fn part2() {
     let mut depth = 0;
     let mut aim = 0;
     for line in data.lines() {
-        let mut tmp = line.split(" ");
-        let action = tmp.next().unwrap();
-        let amount = tmp.next().unwrap().parse::<i32>().unwrap();
+        let (action, amount) = line.split_once(" ").unwrap();
+        let amount = amount.parse::<i32>().unwrap();
         match action {
             "forward" => {
                 hpos += amount;
