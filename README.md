@@ -5,5 +5,5 @@ Goal is to finish the competition in the time that I have i.e. functionality ove
 * Day 2 - easy
 * Day 3 - some struggle, but starting to like functional programming
 * Day 4 - almost gave up on functional programming, but got a working solution.  Had to implement terminal color output to visualize the bingo boards.  Something that I have wanted to do for a long time but the opportunity never presented it self.  Now the genie is out of the bottle :-)
-* Day 5 - TBD
+* Day 5 - Done, was relatively easy, parsing was a bit problematic.  Also got a solution and then refactored the code adding in structs for lines and points and a seafloor map just to make the code more readable.
 
