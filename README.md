@@ -9,5 +9,7 @@ Goal is to finish the competition in the time that I have i.e. functionality ove
 * Day 6 - Did it the naive way first (commented code), then realized how exponentially horrible this problem was....  Couldn't figure out, but saw someones google sheets solution and a light bulb went off in my head.  Implemented it in Rust.  Feeling really silly about not being able to think like this in the first place :-)
 * Day 7 - Did this one mathematically/analytically.  Noted that for the first part you need a median i.e. most frequently occuring value.  For the 2nd part it becomes mean. But mean is tricky and can be fractional so we use the floor and ceil of the computed mean.  And then take the min of both results.  Had to google sum of series formula.
 * Day 8 - Very tricky - could have used sets but instead used iterators and filters to figure out the segments.  Built the numbers from the segments to decode the counter digits.
+* Day 9 - Was easy but had work so fell behind.  Completed on the 9th but submitting today
+* Day 10 - TBD
 
 
