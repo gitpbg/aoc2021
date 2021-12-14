@@ -11,5 +11,7 @@ Goal is to finish the competition in the time that I have i.e. functionality ove
 * Day 8 - Very tricky - could have used sets but instead used iterators and filters to figure out the segments.  Built the numbers from the segments to decode the counter digits.
 * Day 9 - Was easy but had work so fell behind.  Completed on the 9th but submitting today
 * Day 10 - Relatively easy, stack to track matches and calculate scores.
+* Day 11 - Took too long mainly because I decided to take a break over the weekend
+* Day 12 - Started on 12/13
 
 

@@ -1,5 +1,3 @@
-use itertools;
-
 fn get_data<'a>() -> &'a str {
     include_str!("input.txt")
 }
